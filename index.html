@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiz Ripasso - Regno degli Animali</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>Benvenuto nel Regno degli Animali!</h1>
+  <div id="mascotte-selection">
+    <h2>Scegli la tua mascotte preferita:</h2>
+    <div class="mascotte-options">
+      <img src="img/mascotte_gufo.png" alt="Gufo" onclick="selectMascotte('gufo')">
+      <img src="img/mascotte_scimmia.png" alt="Scimmia" onclick="selectMascotte('scimmia')">
+      <img src="img/mascotte_unicorno.png" alt="Unicorno" onclick="selectMascotte('unicorno')">
+      <img src="img/mascotte_tartaruga.png" alt="Tartaruga" onclick="selectMascotte('tartaruga')">
+    </div>
+  </div>
+
+  <div id="quiz" style="display:none;"></div>
+
+  <div id="result" style="display:none;"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
